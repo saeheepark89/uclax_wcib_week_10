@@ -57,10 +57,10 @@ footer {
   border: solid #FFF1E6;
   border-width: 1px;
 }
-.btn-primary:hover, .btn-primary:active {
+.btn-primary:hover, .btn-primary:active, .btn-secondary:hover, .btn-secondary:active {
   background-color: white;
   border-color: white;
-  color: #CD997E;
+  color: #CD997E !important;
   text-decoration: none;
 }
 
@@ -112,12 +112,7 @@ body.work .content-body a:hover {
   border: solid #CD997E;
   border-width: 1px;
 }
-.btn-secondary:hover, .btn-secondary:active {
-  background-color: white;
-  border-color: white;
-  color: #CD997E !important;
-  text-decoration: none;
-}
+
 
 
 /* Resume page style */
