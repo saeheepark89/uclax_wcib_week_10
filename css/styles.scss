@@ -104,18 +104,18 @@ body.work a, a:visited {
 body.work .content-body a:hover {
   opacity: 0.3;
 }
-body.work .btn-secondary {
+.btn-secondary {
   background-color: #CD997E;
   padding: 2px 50px;
-  color: #FFF1E6;
+  color: #FFF1E6 !important;
   border-radius: 10px;
   border: solid #CD997E;
   border-width: 1px;
 }
-body.work .btn-secondary:hover, .btn-secondary:active {
+.btn-secondary:hover, .btn-secondary:active {
   background-color: white;
   border-color: white;
-  color: #CD997E;
+  color: #CD997E !important;
   text-decoration: none;
 }
 
@@ -152,17 +152,4 @@ body.resume h2.content-title {
 body.resume .img-fluid {
   max-width: 100%;
   height: auto;
-}
-body.resume .btn-secondary {
-  border: solid #CD997E;
-  border-radius: 10px;
-  padding: 2px 50px;
-  background-color: #CD997E;
-  color: #FFF1E6;
-}
-body.resume .btn-secondary:hover, .btn-secondary:active {
-  background-color: white;
-  border-color: white;
-  color: #CD997E;
-  text-decoration: none;
 }
