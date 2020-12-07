@@ -61,6 +61,7 @@ footer {
   background-color: white;
   border-color: white;
   color: #CD997E;
+  text-decoration: none;
 }
 
 
@@ -100,10 +101,10 @@ body.work a, a:visited {
   font-size: 1rem;
   color: inherit;
 }
-body.work a:hover {
+body.work .content-body a:hover {
   opacity: 0.3;
 }
-body.work .btn-primary {
+body.work .btn-secondary {
   background-color: #CD997E;
   padding: 2px 50px;
   color: #FFF1E6;
@@ -111,16 +112,18 @@ body.work .btn-primary {
   border: solid #CD997E;
   border-width: 1px;
 }
-body.work .btn-primary:hover, .btn-primary:active {
+body.work .btn-secondary:hover, .btn-secondary:active {
   background-color: white;
   border-color: white;
   color: #CD997E;
+  text-decoration: none;
 }
 
 
 /* Resume page style */
 body.resume {
   background-color: #EDDCD2;
+  font-family: 'Roboto Mono', monospace;
   color: #CD997E;
 }
 body.resume .bg-dark {
@@ -150,15 +153,16 @@ body.resume .img-fluid {
   max-width: 100%;
   height: auto;
 }
-body.resume button {
+body.resume .btn-secondary {
   border: solid #CD997E;
   border-radius: 10px;
   padding: 2px 50px;
   background-color: #CD997E;
   color: #FFF1E6;
 }
-body.resume button:hover, button:active {
+body.resume .btn-secondary:hover, .btn-secondary:active {
   background-color: white;
   border-color: white;
   color: #CD997E;
+  text-decoration: none;
 }
